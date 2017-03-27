@@ -3,6 +3,8 @@
  */
 package com.zxl.Test;
 
+import com.zxl.service.Service;
+
 /**
  * @author zhangxl
  * @date： 日期：2017-3-27
@@ -18,7 +20,14 @@ public class ServicrTest {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO 自动生成的方法存根
+		
+		Service service=new Service();
+		
+		String s="";
+		
+		int theLongestSubstring = service.theLongestSubstring(s);
+		System.out.println(theLongestSubstring);
+		
 
 	}
 
