@@ -24,7 +24,8 @@ public class ServicrTest {
 		Service service=new Service();
 		
 		//String s="";
-		String s="abcabcbb";
+		//String s="abcabcbb";
+		String s="aaaaaa";
 		int theLongestSubstring = service.theLongestSubstring(s);
 		System.out.println(theLongestSubstring);
 		
