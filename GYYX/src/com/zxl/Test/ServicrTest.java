@@ -25,7 +25,8 @@ public class ServicrTest {
 		
 		//String s="";
 		//String s="abcabcbb";
-		String s="aaaaaa";
+		//String s="aaaaaa";
+		String s = "qwertyuioplkjhgfdsazxcvbnml";
 		int theLongestSubstring = service.theLongestSubstring(s);
 		System.out.println(theLongestSubstring);
 		
